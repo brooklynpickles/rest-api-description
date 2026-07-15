@@ -23,3 +23,6 @@ directory to pin to a specific release.
 Check `descriptions/api.github.com/CHANGELOG.md` for a per-release record
 of what changed in the schema. A new date-stamped file is added alongside
 the unversioned bundle on each release.
+
+To track changes programmatically, diff two date-stamped descriptions rather
+than the unversioned bundle, which is overwritten in place on each release.
